@@ -1,0 +1,114 @@
+body{
+   background-color: #A8D5BA
+
+
+}
+form {
+    background-image: url("tr.jfif");
+    position: relative;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 7rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Organiza en columna */
+    gap: 2rem; /* Espaciado entre elementos */
+  }
+
+  label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  input, button {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  fieldset {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 1rem;
+  }
+  
+  legend {
+    font-weight: bold;
+  }
+  
+  .botones{
+    display: flex;
+    justify-content: center; /* Centra los botones horizontalmente */
+    margin-top: 1rem;
+   
+    /*width: 150px; /* Ancho fijo */
+    /*height: 50px; /* Alto fijo */
+    
+  }
+
+  .btn {
+    background-color: white; /* Verde */
+    color: black;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .enlaces {
+    display: flex;
+    padding: auto;
+    gap: 5rem; /* Espacio entre enlaces */
+    margin-top: 1rem;
+    align-items: center
+    
+  
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+  }
+  .enlacetodo{
+    color: #000000; /* Cambia el color del enlace primario */
+    font-size: 30px; /* Cambia el tamaño del enlace primario */
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    
+    
+  }
+  
+
+  .logo{
+    position: absolute; /* Permite posicionarlo respecto al contenedor más cercano */
+    top: 0; /* Posición en la parte superior */
+    right: 0; /* Posición en la parte izquierda */
+    width: 100px; /* Ajusta el tamaño del logo, si es necesario */
+    height: auto; /* Mantiene la relación de aspecto */
+  }
